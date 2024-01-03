@@ -29,9 +29,16 @@ int **initTwoArray(int rows, int cols) {
  * @param cols
  */
 void printArray(int **array, int rows, int cols) {
+    int number = rows * cols;
+    int count = 0;
+    while (number != 0) {
+        number /= 10;  // 这将会删除数字的最后一位
+        count++;
+    }
     for (int row = 0; row < rows; row++) {
         for (int col = 0; col < cols; col++)
-            printf("%3d", array[row][col]);
+            // 使用动态宽度打印，保证任意位数的数字都能对齐
+            printf("%*d", count + 1, array[row][col]);
         printf("\n");
     }
 }
