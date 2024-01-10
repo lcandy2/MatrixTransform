@@ -1,3 +1,0 @@
-/Users/srl/Developer/CLionProjects/MatrixTransform/cmake-build-release/CMakeFiles/MatrixTransform.dir
-/Users/srl/Developer/CLionProjects/MatrixTransform/cmake-build-release/CMakeFiles/edit_cache.dir
-/Users/srl/Developer/CLionProjects/MatrixTransform/cmake-build-release/CMakeFiles/rebuild_cache.dir
